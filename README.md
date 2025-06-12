@@ -25,7 +25,8 @@ This integration enables streamlined automation and orchestration between TheHiv
 2. Set proper permissions:
 
     ```bash
-    cd Cortex-n8n-responder
+    mv Cortex-n8n-responder/ n8n/
+    cd n8n
     chmod 755 n8n.py
     chown cortex:cortex n8n.py
     pip install -r requirements.txt
