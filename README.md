@@ -28,7 +28,7 @@ This integration enables streamlined automation and orchestration between TheHiv
     cd Cortex-n8n-responder
     chmod 755 n8n.py
     chown cortex:cortex n8n.py
-    pip install -r requirements
+    pip install -r requirements.txt
     ```
 
 
