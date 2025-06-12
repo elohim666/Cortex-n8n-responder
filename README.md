@@ -1,6 +1,6 @@
-# SendToN8N Responder
+# n8n Responder
 
-**SendToN8N** is a custom [Cortex](https://github.com/TheHive-Project/Cortex) responder that sends observable, alert, or case data to an [n8n](https://n8n.io/) workflow via a webhook.
+This is a custom [Cortex](https://github.com/TheHive-Project/Cortex) responder that sends observable, alert, or case data to an [n8n](https://n8n.io/) workflow via a webhook.
 
 This integration enables streamlined automation and orchestration between TheHive/Cortex and n8n for enrichment, alerting, ticketing, or other custom actions. ( Sky Is The Limit )
 
