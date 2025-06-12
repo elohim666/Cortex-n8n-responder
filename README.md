@@ -1,4 +1,4 @@
-# n8n Responder
+# n8n Responder for Cortex
 
 This is a custom [Cortex](https://github.com/TheHive-Project/Cortex) responder that sends observable, alert, or case data to an [n8n](https://n8n.io/) workflow via a webhook.
 
