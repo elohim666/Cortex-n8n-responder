@@ -22,10 +22,10 @@ This integration enables streamlined automation and orchestration between TheHiv
     git clone https://github.com/elohim666/Cortex-n8n-responder.git
     ```
 
-2. Set proper permissions:
+2. Set proper permissions & naming:
 
     ```bash
-    mv Cortex-n8n-responder/ n8n/
+    mv Cortex-n8n-responder/ n8n/ # This is important
     cd n8n
     chmod 755 n8n.py
     chown cortex:cortex n8n.py
