@@ -1,0 +1,20 @@
+{
+  "name": "n8n",
+  "version": "1.0",
+  "author": "Anas SOUIRI",
+  "url": "https://github.com/n8n-io/n8n",
+  "license": "AGPL-V3",
+  "description": "Send observable to n8n webhook",
+  "dataTypeList": ["thehive:case", "thehive:alert", "thehive:case_artifact", "thehive:case_task", "thehive:case_task_log"],
+  "command": "n8n/n8n.py",
+  "baseConfig": "n8n",
+  "configurationItems": [
+    {
+      "name": "webhook",
+      "description": "n8n Webhook URL",
+      "type": "string", 
+      "multi": false, 
+      "required": true
+    }
+  ]
+}
